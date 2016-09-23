@@ -13,12 +13,12 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-    MultiSlider.cpp \
-    MultiSliderWidget.cpp
+    MultiSlider/MultiSlider.cpp \
+    MultiSlider/MultiSliderWidget.cpp
 
-HEADERS  += MultiSlider.h \
-    MultiSlider_p.h \
-    MultiSliderWidget.h
+HEADERS  += MultiSlider/MultiSlider.h \
+    MultiSlider/MultiSlider_p.h \
+    MultiSlider/MultiSliderWidget.h
 
 RESOURCES += \
-    res.qrc
+    MultiSlider/res.qrc

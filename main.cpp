@@ -1,5 +1,5 @@
 #include <QApplication>
-#include "MultiSliderWidget.h"
+#include "MultiSlider/MultiSliderWidget.h"
 
 int main(int argc, char *argv[])
 {
